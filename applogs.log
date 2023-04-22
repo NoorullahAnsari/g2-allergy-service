@@ -1,95 +1,19 @@
-2023-04-22T10:54:53.877+05:30  INFO 8932 --- [main] com.pms.AllergyServiceApplicationTests   : The following 1 profile is active: "local"
-2023-04-22T10:55:00.577+05:30  INFO 8932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-04-22T10:55:00.759+05:30  INFO 8932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 158 ms. Found 1 JPA repository interfaces.
-2023-04-22T10:55:01.309+05:30  INFO 8932 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6c481685-5130-32b5-ab1b-7799c4034a7b
-2023-04-22T10:55:01.528+05:30  INFO 8932 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-04-22T10:55:01.613+05:30  INFO 8932 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2023-04-22T10:55:03.307+05:30  INFO 8932 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-04-22T10:55:03.771+05:30  INFO 8932 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42536da6
-2023-04-22T10:55:03.775+05:30  INFO 8932 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-04-22T10:55:03.807+05:30  INFO 8932 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2023-04-22T10:55:05.158+05:30  INFO 8932 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-04-22T10:55:07.103+05:30  WARN 8932 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-04-22T10:55:11.809+05:30  INFO 8932 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
-2023-04-22T10:55:14.120+05:30  INFO 8932 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
-2023-04-22T10:55:14.172+05:30  INFO 8932 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-04-22T10:55:14.276+05:30  INFO 8932 --- [main] com.pms.AllergyServiceApplicationTests   : Started AllergyServiceApplicationTests in 32.308 seconds (process running for 33.97)
-2023-04-22T10:55:14.667+05:30  INFO 8932 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-04-22T10:55:14.691+05:30  INFO 8932 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2023-04-22T10:55:14.712+05:30  INFO 8932 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2023-04-22T10:56:15.879+05:30  INFO 13928 --- [main] com.pms.AllergyServiceApplicationTests   : The following 1 profile is active: "local"
-2023-04-22T10:56:17.433+05:30  INFO 13928 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-04-22T10:56:17.686+05:30  INFO 13928 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 238 ms. Found 1 JPA repository interfaces.
-2023-04-22T10:56:18.242+05:30  INFO 13928 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6c481685-5130-32b5-ab1b-7799c4034a7b
-2023-04-22T10:56:18.429+05:30  INFO 13928 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-04-22T10:56:18.486+05:30  INFO 13928 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2023-04-22T10:56:19.622+05:30  INFO 13928 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-04-22T10:56:19.830+05:30  INFO 13928 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f9cd1e6
-2023-04-22T10:56:19.835+05:30  INFO 13928 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-04-22T10:56:19.859+05:30  INFO 13928 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2023-04-22T10:56:20.736+05:30  INFO 13928 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-04-22T10:56:22.147+05:30  WARN 13928 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-04-22T10:56:26.081+05:30  INFO 13928 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
-2023-04-22T10:56:28.200+05:30  INFO 13928 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
-2023-04-22T10:56:28.264+05:30  INFO 13928 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-04-22T10:56:28.409+05:30  INFO 13928 --- [main] com.pms.AllergyServiceApplicationTests   : Started AllergyServiceApplicationTests in 15.619 seconds (process running for 16.83)
-2023-04-22T10:56:28.838+05:30  INFO 13928 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-04-22T10:56:28.851+05:30  INFO 13928 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2023-04-22T10:56:28.864+05:30  INFO 13928 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2023-04-22T11:08:06.615+05:30  INFO 19008 --- [main] com.pms.AllergyServiceApplicationTests   : The following 1 profile is active: "local"
-2023-04-22T11:08:08.298+05:30  INFO 19008 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-04-22T11:08:08.497+05:30  INFO 19008 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 180 ms. Found 1 JPA repository interfaces.
-2023-04-22T11:08:09.056+05:30  INFO 19008 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6c481685-5130-32b5-ab1b-7799c4034a7b
-2023-04-22T11:08:09.279+05:30  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-04-22T11:08:09.354+05:30  INFO 19008 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2023-04-22T11:08:10.659+05:30  INFO 19008 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-04-22T11:08:10.909+05:30  INFO 19008 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d70dbeb
-2023-04-22T11:08:10.914+05:30  INFO 19008 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-04-22T11:08:10.947+05:30  INFO 19008 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2023-04-22T11:08:12.157+05:30  INFO 19008 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-04-22T11:08:13.412+05:30  WARN 19008 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-04-22T11:08:17.113+05:30  INFO 19008 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
-2023-04-22T11:08:19.151+05:30  INFO 19008 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
-2023-04-22T11:08:19.230+05:30  INFO 19008 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-04-22T11:08:19.348+05:30  INFO 19008 --- [main] com.pms.AllergyServiceApplicationTests   : Started AllergyServiceApplicationTests in 16.062 seconds (process running for 17.554)
-2023-04-22T11:08:19.696+05:30  INFO 19008 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-04-22T11:08:19.711+05:30  INFO 19008 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2023-04-22T11:08:19.725+05:30  INFO 19008 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2023-04-22T11:10:21.156+05:30  INFO 18380 --- [main] com.pms.AllergyServiceApplicationTests   : The following 1 profile is active: "local"
-2023-04-22T11:10:23.515+05:30  INFO 18380 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-04-22T11:10:23.847+05:30  INFO 18380 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 310 ms. Found 1 JPA repository interfaces.
-2023-04-22T11:10:24.607+05:30  INFO 18380 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6c481685-5130-32b5-ab1b-7799c4034a7b
-2023-04-22T11:10:24.883+05:30  INFO 18380 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-04-22T11:10:24.950+05:30  INFO 18380 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2023-04-22T11:10:26.346+05:30  INFO 18380 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-04-22T11:10:26.592+05:30  INFO 18380 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d70dbeb
-2023-04-22T11:10:26.596+05:30  INFO 18380 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-04-22T11:10:26.632+05:30  INFO 18380 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2023-04-22T11:10:27.745+05:30  INFO 18380 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-04-22T11:10:29.561+05:30  WARN 18380 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-04-22T11:10:34.084+05:30  INFO 18380 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
-2023-04-22T11:10:36.359+05:30  INFO 18380 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
-2023-04-22T11:10:36.413+05:30  INFO 18380 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-04-22T11:10:36.553+05:30  INFO 18380 --- [main] com.pms.AllergyServiceApplicationTests   : Started AllergyServiceApplicationTests in 19.106 seconds (process running for 21.103)
-2023-04-22T11:10:37.199+05:30  INFO 18380 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-04-22T11:10:37.222+05:30  INFO 18380 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2023-04-22T11:10:37.237+05:30  INFO 18380 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2023-04-22T11:11:52.187+05:30  INFO 19364 --- [main] com.pms.AllergyServiceApplicationTests   : The following 1 profile is active: "local"
-2023-04-22T11:11:53.781+05:30  INFO 19364 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-04-22T11:11:54.045+05:30  INFO 19364 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 252 ms. Found 1 JPA repository interfaces.
-2023-04-22T11:11:54.655+05:30  INFO 19364 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6c481685-5130-32b5-ab1b-7799c4034a7b
-2023-04-22T11:11:54.837+05:30  INFO 19364 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2023-04-22T11:11:54.894+05:30  INFO 19364 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2023-04-22T11:11:56.128+05:30  INFO 19364 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-04-22T11:11:56.409+05:30  INFO 19364 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b5cf611
-2023-04-22T11:11:56.413+05:30  INFO 19364 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-04-22T11:11:56.439+05:30  INFO 19364 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2023-04-22T11:11:57.379+05:30  INFO 19364 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-04-22T11:11:58.865+05:30  WARN 19364 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-04-22T11:12:02.901+05:30  INFO 19364 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
-2023-04-22T11:12:05.041+05:30  INFO 19364 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
-2023-04-22T11:12:05.099+05:30  INFO 19364 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-04-22T11:12:05.229+05:30  INFO 19364 --- [main] com.pms.AllergyServiceApplicationTests   : Started AllergyServiceApplicationTests in 16.251 seconds (process running for 17.548)
-2023-04-22T11:12:05.610+05:30  INFO 19364 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-04-22T11:12:05.625+05:30  INFO 19364 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2023-04-22T11:12:05.639+05:30  INFO 19364 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-23T01:00:17.241+05:30  INFO 12020 --- [main] com.pms.AllergyServiceApplicationTests   : The following 1 profile is active: "local"
+2023-04-23T01:00:27.492+05:30  INFO 12020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-23T01:00:29.009+05:30  INFO 12020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1426 ms. Found 1 JPA repository interfaces.
+2023-04-23T01:00:32.415+05:30  INFO 12020 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6c481685-5130-32b5-ab1b-7799c4034a7b
+2023-04-23T01:00:33.775+05:30  INFO 12020 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-23T01:00:34.176+05:30  INFO 12020 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-04-23T01:00:43.310+05:30  INFO 12020 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-23T01:00:45.480+05:30  INFO 12020 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@574327ed
+2023-04-23T01:00:45.501+05:30  INFO 12020 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-23T01:00:45.728+05:30  INFO 12020 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-23T01:00:54.245+05:30  INFO 12020 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-23T01:01:04.014+05:30  WARN 12020 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-23T01:01:24.626+05:30  INFO 12020 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2023-04-23T01:01:30.194+05:30  INFO 12020 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2023-04-23T01:01:30.776+05:30  INFO 12020 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-04-23T01:01:31.432+05:30  INFO 12020 --- [main] com.pms.AllergyServiceApplicationTests   : Started AllergyServiceApplicationTests in 84.52 seconds (process running for 93.961)
+2023-04-23T01:01:34.401+05:30  INFO 12020 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-23T01:01:34.498+05:30  INFO 12020 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-23T01:01:34.583+05:30  INFO 12020 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
