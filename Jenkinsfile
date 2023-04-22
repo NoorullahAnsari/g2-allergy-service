@@ -8,7 +8,7 @@ stage('Checkout'){
 
 steps{
 
-git branch: "main", url: 'https://github.com/NoorullahAnsari/g2-allenrgy-service.git'
+git branch: "main", url: 'https://github.com/NoorullahAnsari/g2-allergy-service.git'
 
 }
 
@@ -40,7 +40,7 @@ stage('DockerBuild') {
 
 steps {
 
-sh 'docker build -t services/g2-allergy-service:latest .'
+sh 'docker build -t noorullahansari1996/g2-allergy-service:latest .'
 
 }
 
@@ -50,7 +50,7 @@ stage('Login') {
 
 steps {
 
-sh 'echo Noorullah@8227907838 | docker login -u NoorullahAnsari1996 --password-stdin'
+sh 'echo Noorullah@8227907838 | docker login -u noorullahansari1996 --password-stdin'
 
 }
 
@@ -60,7 +60,7 @@ stage('Push') {
 
 steps {
 
-sh 'docker push services/g2-allergy-service'
+sh 'docker push noorullahansari1996/g2-allergy-service'
 
 }
 
